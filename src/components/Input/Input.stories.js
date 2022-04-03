@@ -7,4 +7,4 @@ export default {
   component: Input,
 }
 
-export const Medium = () => <Input seize />
+export const Medium = () => <Input seize= {medium} />
