@@ -8,6 +8,6 @@ export default {
   component: Input,
 }
 
-export const Small = () => <Input className='small' seize= 'small' placeholder='Small size'/>
-export const Medium = () => <Input className='medium' seize= 'medium' placeholder='medium size' />
-export const Large = () => <Input className='large' seize= 'large' placeholder='large size' />
+export const Small = () => <Input  variant= 'small' placeholder='Small size'/>
+export const Medium = () => <Input  variant= 'medium' placeholder='medium size' />
+export const Large = () => <Input  variant= 'large' placeholder='large size' />
