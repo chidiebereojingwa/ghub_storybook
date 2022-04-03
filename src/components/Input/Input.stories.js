@@ -4,7 +4,7 @@ import Input from './Input'
 import './Input.css'
 
 export default {
-  title: 'Input',
+  title: 'form/Input',
   component: Input,
 }
 
