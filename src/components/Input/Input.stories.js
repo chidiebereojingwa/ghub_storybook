@@ -9,5 +9,5 @@ export default {
 }
 
 export const Small = () => <Input className='small' seize= 'small' placeholder='Small size'/>
-export const Medium = () => <Input seize= 'medium' placeholder='medium size' />
-export const Large = () => <Input seize= 'large' placeholder='large size' />
+export const Medium = () => <Input className='medium' seize= 'medium' placeholder='medium size' />
+export const Large = () => <Input className='large' seize= 'large' placeholder='large size' />
