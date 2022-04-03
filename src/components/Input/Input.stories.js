@@ -7,4 +7,5 @@ export default {
   component: Input,
 }
 
-export const Medium = () => <Input seize= {medium} />
+export const Small = () => <Input seize= 'small' placeholder='Small size'/>
+export const Medium = () => <Input seize= 'medium' placeholder='medium size' />
