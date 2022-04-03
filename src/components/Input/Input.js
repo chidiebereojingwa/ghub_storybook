@@ -1,9 +1,9 @@
 import React from 'react'
 import './Input.css'
 function Input(props) {
-    const { variant = 'medium', ...rest} = props
+    const { size = 'medium', ...rest} = props
   return (
-    <input className={`input ${variant}`} {...rest}/>
+    <input className={`input ${size}`} {...rest}/>
   )
 }
 
